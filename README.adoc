@@ -2,7 +2,24 @@
 
 == Angular
 
-=== Setup app
+=== Start the provided demo
+1. Fill in the missing placeholders in app.module.ts
++
+(KEYCLOAK-DOMAIN, KEYCLOAK-REALM, CLIENT-ID)
+
+2. Install dependencies
++
+----
+npm i
+----
+
+3. Run the project
++
+----
+npm run start
+----
+
+=== Build your own app
 
 Create app:
 ----
